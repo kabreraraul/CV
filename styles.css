@@ -1,0 +1,50 @@
+body {
+    font-family: "Courier New", monospace;
+    background-color: #000;
+    color: #00ff00;
+    padding: 20px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: black;
+    padding: 20px;
+    border: 2px solid #00ff00;
+    color: white;
+    text-align: center;
+}
+
+button {
+    background: #ffcc00;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff9900;
+}
+
+.proyecto, .habilidad {
+    background-color: #000;
+    padding: 10px;
+    border: 1px solid #00ff00;
+    font-family: "Courier New", monospace;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.proyecto:active, .habilidad:active {
+    background-color: #444444; /* Gris lacro */
+}
